@@ -77,7 +77,7 @@ class _WebSocketDemoState extends State<WebSocketDemo> {
                           ),
                         ),
                         IconButton(
-                          icon: Icon(Icons.send),
+                          icon: const Icon(Icons.send),
                           onPressed: () {
                             final message = _controller.text;
                             if (message.isNotEmpty) {
@@ -120,7 +120,7 @@ class _WebSocketDemoState extends State<WebSocketDemo> {
                         ),
                       ),
                       IconButton(
-                        icon: Icon(Icons.send),
+                        icon: const Icon(Icons.send),
                         onPressed: () {
                           final message = _controller.text;
                           if (message.isNotEmpty) {
